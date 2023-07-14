@@ -26,6 +26,8 @@ function computeTemp(event) {
             }
             if(currentname==="Celcius" && currentValue > 35){
                 document.getElementById("main").style.backgroundImage = "url('https://cdn.pixabay.com/photo/2018/08/23/00/23/solar-3624954_640.jpg')";
+                document.getElementById("main").style.backgroundRepeat = "no-repeat";
+                document.getElementById("main").style.backgroundSize = "cover";
                 document.getElementById("note").innerHTML="Temperature outside is Hot"
         
             }
@@ -33,6 +35,8 @@ function computeTemp(event) {
                 document.getElementById("main").style.backgroundColor = " rgba(0, 212, 255, 0.3)";
                 document.getElementById("note").innerHTML="Temperature outside is cold "
                 document.getElementById("main").style.backgroundImage = "url('https://media.istockphoto.com/id/494811470/photo/winter-background-snowy-landscape-with-warning-sign.jpg?b=1&s=170667a&w=0&k=20&c=IXfugTuVTxjVEw_UdMIy6etE4amA6XrIufPELuIeyQM=')";
+                document.getElementById("main").style.backgroundRepeat = "no-repeat";
+                document.getElementById("main").style.backgroundSize = "cover";
         
         
             }
@@ -40,6 +44,8 @@ function computeTemp(event) {
                 document.getElementById("main").style.color = "black";
                 document.getElementById("note").innerHTML="Temperature outside is pleasant"
                 document.getElementById("main").style.backgroundImage = "url('https://cdn.pixabay.com/photo/2016/10/27/22/53/heart-1776746_640.jpg')";
+                document.getElementById("main").style.backgroundRepeat = "no-repeat";
+                document.getElementById("main").style.backgroundSize = "cover";
             }
         }
         
