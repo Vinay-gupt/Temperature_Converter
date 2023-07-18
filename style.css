@@ -59,9 +59,7 @@ input::placeholder {
     .container {
         width: 70%;
     }
-    .temp-container{
-         font-size: 1.1rem;
-    }
+   
         
 
     input {
@@ -73,11 +71,14 @@ input::placeholder {
     .container {
         width: 60%;
     }
-     .temp-container{
-         font-size: 1.1rem;
-    }
+
 
     input {
         width: 40%;
+    }
+}
+@media (max-width: 800px) {
+     .temp-container{
+         font-size: 1.1rem;
     }
 }
